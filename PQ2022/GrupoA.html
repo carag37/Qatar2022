@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Grupo A</title>
+  <link href="https://res.cloudinary.com/dboedj74p/image/upload/v1664342169/Qatar2022/Fifa_World_Cup_2022_Mascot_lptoed.svg" rel="icon" type="image/png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/F_GrupoA.js"></script>
+</head>
+
+<body class="antialiased text-slate-200 bg-[url('https://res.cloudinary.com/dboedj74p/image/upload/v1664342173/Qatar2022/Qatar_2022_pattern-01_bubwoy.jpg')]" onload='leerDatos("Category")'>
+
+ 
+  <div class="flex-block max-w-4xl p-3 md:pd-8 mx-auto mt-8">
+
+    <div class="text-sm font-bold text-center text-gray-200 border-gray-200 dark:text-gray-400 dark:border-gray-700">
+      <ul class="flex flex-wrap text-center -mb-px ">
+          <li class="mr-2">
+              <a href="#" class="inline-block p-3 rounded-t-lg border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300 dark:hover:text-gray-300">Inicio</a>
+          </li>
+          <li class="mr-2">
+              <a href="#" class="inline-block p-3 text-gray-400 rounded-t-lg border-b-2 border-gray-400 active dark:text-gray-400 dark:border-gray-400" aria-current="page">Grupo A</a>
+          </li>
+          <li class="mr-2">
+              <a href="#" class="inline-block p-3 rounded-t-lg border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300 dark:hover:text-gray-300">Grupo B</a>
+          </li>
+          <li class="mr-2">
+              <a href="#" class="inline-block p-3 rounded-t-lg border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300 dark:hover:text-gray-300">Grupo C</a>
+          </li>
+          <li class="mr-2">
+            <a href="#" class="inline-block p-3 rounded-t-lg border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300 dark:hover:text-gray-300">Grupo D</a>
+          </li>
+          <li class="mr-2">
+            <a href="#" class="inline-block p-3 rounded-t-lg border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300 dark:hover:text-gray-300">Grupo E</a>
+          </li>
+          <li class="mr-2">
+          <a href="#" class="inline-block p-3 rounded-t-lg border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300 dark:hover:text-gray-300">Grupo F</a>
+          </li>
+          <li class="mr-2">
+          <a href="#" class="inline-block p-3 rounded-t-lg border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300 dark:hover:text-gray-300">Grupo G</a>
+          </li>
+          <li class="mr-2">
+            <a href="#" class="inline-block p-3 rounded-t-lg border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300 dark:hover:text-gray-300">Grupo H</a>
+          </li>
+          <li>
+              <a class="inline-block p-3 text-gray-400 rounded-t-lg cursor-not-allowed dark:text-gray-500">Eliminatoria</a>
+          </li>
+      </ul>
+  </div>
+
+    <div class="bg-white shadow overflow-hidden rounded-lg">
+      <div class="py-2 flex">
+        <div class="mx-auto text-center">
+          <img class="mx-auto rounded-lg w-48" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666395347/Qatar2022/world-cup-2022-logo_omnibv.svg"
+            alt="QATAR 2022" />
+            <br>
+          <h1 class="text-xl text-center -mt-8 leading-6 font-bold text-gray-600">
+            Grupo A
+          </h1>
+          <p class="text-center max-w-2xl text-sm text-gray-500">
+            Ingrese el marcador deseado
+          </p>
+        </div>
+        
+      </div>
+
+      <div class="border-t border-gray-300">
+      <div class="grid mt-4 grid-cols-2 gap-1">           
+        <div class="container px-10 mx-auto">
+          <div class="lg:w-full mb-4 md:w-full bg-neutral-50 rounded-lg px-4 py-2 flex flex-col md:ml-auto w-full mt-2 md:mt-0 relative z-10 shadow-md">
+
+            <div class="grid grid-cols-2 gap-8 text-center">
+            <div class="container mx-auto">
+              
+              <div class="flex items-center justify-center">
+                
+                <span class="text-center text-gray-500 mb-1 mx-3">Qatar</span>
+                <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397162/Qatar2022/Teams/qatar_il9rr5.png" alt="Qatar_Flag" />
+              </div>
+              
+              <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                      outline-none text-gray-500 py-1 px-2 mb-4 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                      invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+          </div>  
+              
+          <div class="container mx-auto">
+            <div class="flex items-center justify-center">
+                
+              <span class="text-center text-gray-500 mb-1 mx-3">Ecuador</span>
+              <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397815/Qatar2022/Teams/ecuador_1_nkxqyz.png" alt="Ecuador_Flag" />
+            </div>
+              <input type="number" id="P1E2" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                      text-base outline-none text-gray-500 py-1 px-2 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                      invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+          </div>                 
+          </div>
+          
+        </div>
+
+        <div class="lg:w-full mb-4 md:w-full bg-neutral-50 rounded-lg px-4 py-2 flex flex-col md:ml-auto w-full mt-2 md:mt-0 relative z-10 shadow-md">
+
+          <div class="grid grid-cols-2 gap-8 text-center">
+          <div class="container mx-auto">
+            
+            <div class="flex items-center justify-center">
+              
+              <span class="text-center text-gray-500 mb-1 mx-3">Qatar</span>
+              <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397162/Qatar2022/Teams/qatar_il9rr5.png" alt="Qatar_Flag" />
+            </div>
+            
+            <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                    outline-none text-gray-500 py-1 px-2 mb-4 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                    invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+        </div>  
+            
+        <div class="container mx-auto">
+          <div class="flex items-center justify-center">
+              
+            <span class="text-center text-gray-500 mb-1 mx-3">Senegal</span>
+            <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397956/Qatar2022/Teams/senegal_bmiqfa.png" alt="Senegal_Flag" />
+          </div>
+            <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                    text-base outline-none text-gray-500 py-1 px-2 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                    invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+        </div>                 
+        </div>
+        
+      </div>
+
+      <div class="lg:w-full mb-4 md:w-full bg-neutral-50 rounded-lg px-4 py-2 flex flex-col md:ml-auto w-full mt-2 md:mt-0 relative z-10 shadow-md">
+
+        <div class="grid grid-cols-2 gap-8 text-center">
+        <div class="container mx-auto">
+          
+          <div class="flex items-center justify-center">
+            
+            <span class="text-center text-gray-500 mb-1 mx-3">Paises Bajos</span>
+            <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397988/Qatar2022/Teams/netherlands_onuyxy.png" alt="Netherlands_Flag" />
+          </div>
+          
+          <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                  outline-none text-gray-500 py-1 px-2 mb-4 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                  invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+      </div>  
+          
+      <div class="container mx-auto">
+        <div class="flex items-center justify-center">
+            
+          <span class="text-center text-gray-500 mb-1 mx-3">Qatar</span>
+          <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397162/Qatar2022/Teams/qatar_il9rr5.png" alt="Qatar_Flag" />
+        </div>
+          <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                  text-base outline-none text-gray-500 py-1 px-2 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                  invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+      </div>                 
+      </div>
+      
+    </div>
+
+        </div>
+
+
+<!--ACÁ INCIAN LOS DE LA SEGUNDA FECHA DE CADA JORNADA-->
+
+        <div class="container px-10 mx-auto">
+          <div class="lg:w-full mb-4 md:w-full bg-neutral-50 rounded-lg px-4 py-2 flex flex-col md:ml-auto w-full mt-2 md:mt-0 relative z-10 shadow-md">
+
+            <div class="grid grid-cols-2 gap-8 text-center">
+            <div class="container mx-auto">
+              
+              <div class="flex items-center justify-center">
+                
+                <span class="text-center text-gray-500 mb-1 mx-3">Senegal</span>
+                <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397956/Qatar2022/Teams/senegal_bmiqfa.png" alt="Senegal_Flag" />
+              </div>
+              
+              <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                      outline-none text-gray-500 py-1 px-2 mb-4 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                      invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+          </div>  
+              
+          <div class="container mx-auto">
+            <div class="flex items-center justify-center">
+                
+              <span class="text-center text-gray-500 mb-1 mx-3">Paises Bajos</span>
+              <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397988/Qatar2022/Teams/netherlands_onuyxy.png" alt="Netherlands_Flag" />
+            </div>
+              <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                      text-base outline-none text-gray-500 py-1 px-2 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                      invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+          </div>                 
+          </div>
+          
+        </div>
+
+        <div class="lg:w-full mb-4 md:w-full bg-neutral-50 rounded-lg px-4 py-2 flex flex-col md:ml-auto w-full mt-2 md:mt-0 relative z-10 shadow-md">
+
+          <div class="grid grid-cols-2 gap-8 text-center">
+          <div class="container mx-auto">
+            
+            <div class="flex items-center justify-center">
+              
+              <span class="text-center text-gray-500 mb-1 mx-3">Paises Bajos</span>
+              <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397988/Qatar2022/Teams/netherlands_onuyxy.png" alt="Netherlands_Flag" />
+            </div>
+            
+            <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                    outline-none text-gray-500 py-1 px-2 mb-4 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                    invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+        </div>  
+            
+        <div class="container mx-auto">
+          <div class="flex items-center justify-center">
+              
+            <span class="text-center text-gray-500 mb-1 mx-3">Ecuador</span>
+            <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397815/Qatar2022/Teams/ecuador_1_nkxqyz.png" alt="Ecuador_Flag" />
+          </div>
+            <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                    text-base outline-none text-gray-500 py-1 px-2 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                    invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+        </div>                 
+        </div>
+        
+      </div>
+
+      <div class="lg:w-full mb-4 md:w-full bg-neutral-50 rounded-lg px-4 py-2 flex flex-col md:ml-auto w-full mt-2 md:mt-0 relative z-10 shadow-md">
+
+        <div class="grid grid-cols-2 gap-8 text-center">
+        <div class="container mx-auto">
+          
+          <div class="flex items-center justify-center">
+            
+            <span class="text-center text-gray-500 mb-1 mx-3">Ecuador</span>
+            <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397815/Qatar2022/Teams/ecuador_1_nkxqyz.png" alt="Ecuador_Flag" />
+          </div>
+          
+          <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                  outline-none text-gray-500 py-1 px-2 mb-4 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                  invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+      </div>  
+          
+      <div class="container mx-auto">
+        <div class="flex items-center justify-center">
+            
+          <span class="text-center text-gray-500 mb-1 mx-3">Senegal</span>
+          <img width="14" height="14" src="https://res.cloudinary.com/dboedj74p/image/upload/v1666397956/Qatar2022/Teams/senegal_bmiqfa.png" alt="Senegal_Flag" />
+        </div>
+          <input type="number" id="P1E1" placeholder="Goles" name="P1E1" min="0" max="99" class="w-3/5 text-center bg-white rounded border border-gray-300 focus:border-[#960A32] focus:ring-2 focus:ring-red-100 
+                  text-base outline-none text-gray-500 py-1 px-2 transition-colors duration-200 ease-in-out invalid:border-red-500 invalid:text-red-600 invalid:ring-2 
+                  invalid:ring-red-200 focus:invalid:border-red-500 focus:invalid:text-red-600 focus:invalid:ring-2 focus:invalid:ring-red-200">
+      </div>                 
+      </div>
+      
+    </div>
+
+        </div>
+        
+        </div>
+
+        <div class="container mb-2 mt-2 mx-auto text-center">
+          <button onclick='guardarRes("Category")'
+                  class="text-white font-bold bg-[#b60e43] border-0 py-2 px-6 focus:outline-none hover:bg-[#960A32] rounded text-xl">
+            Guardar
+          </button>
+          
+        </div>
+
+        <div class="container mt-5 px-4 mx-auto">
+        <div class="lg:w-full md:w-full bg-neutral-50 rounded-lg px-2 py-2 flex flex-col md:ml-auto w-full mt-2 md:mt-0 relative z-10 shadow-md" id="res_tabla">
+            
+        </div>
+        </div>
+
+        <br>
+        
+        <br>
+     
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex-block max-w-xl p-2 md:pd-8 mx-auto mt-2 text-center">
+    Hecho en Colombia - Carlos Rodas
+  </div>
+
+  
+</body>
+
+</html>
